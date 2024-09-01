@@ -1,0 +1,27 @@
+def crear_sala_cine():
+filas = 3 
+columnas = 3 
+sala =[[f"{i * columnas + j + 1}" for j in range (columnas)] for in range(filas)]
+
+print("La sala de cine ha sido creada exitosamente!")
+for fila in sala:
+    print("".join(fila))
+
+    def menu_principal():
+        While True:
+        print("/n--- Menú Principal---")
+    print("1. Crear la sala de cine")
+    print("2. Salir")
+
+    opcion = input("Seleccione una opción:")
+
+    if opcion == "1":
+        crear_sala-cine()
+        input("Presione Enter para continuar...")
+        elif opcion == "2":
+print("Saliendo del programa...")
+breakelse:
+print("Opción no válida intente nuevamente.")
+
+# Ejecutar el menú principal
+menu_principal()
